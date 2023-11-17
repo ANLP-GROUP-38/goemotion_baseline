@@ -1,0 +1,23 @@
+__pycache__
+.idea
+.DS_Store
+*.egg-info
+build
+.venv
+.vscode
+
+# data
+checkpoints
+out
+wandb
+
+tests/original_falcon_40b.py
+model.*
+events.*
+checkpoint
+train.*
+eval.*
+graph.*
+*.err
+*.out
+bert/cased_L-12_H-768_A-12/*
